@@ -23,5 +23,7 @@ public class DivisibilityCheck {
         else
             System.out.println("Input is not valid for this application");
 
+        sc.close();
+
     }
 }

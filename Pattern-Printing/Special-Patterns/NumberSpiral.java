@@ -5,7 +5,7 @@ public class NumberSpiral {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter number of rows: ");
+        System.out.print("Enter no of rows: ");
         int r = sc.nextInt();
 
         sc.close();

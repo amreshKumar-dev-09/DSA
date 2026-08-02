@@ -1,3 +1,15 @@
+/* (for rows and cols =5)
+
+* * * * * 
+* # # # * 
+* # # # * 
+* # # # * 
+* * * * * 
+
+*/
+
+
+
 import java.util.Scanner;
 
 public class HollowRectangle 

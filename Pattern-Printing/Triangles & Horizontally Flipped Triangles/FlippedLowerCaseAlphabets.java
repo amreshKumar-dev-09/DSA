@@ -1,3 +1,13 @@
+/*
+Enter number of rows: 5
+a b c d e 
+a b c d 
+a b c 
+a b 
+a 
+
+*/
+
 import java.util.Scanner;
 
 public class FlippedLowerCaseAlphabets {

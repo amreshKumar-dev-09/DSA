@@ -1,3 +1,18 @@
+-/*
+
+A
+1 2
+A B C
+1 2 3 4
+A B C D E
+1 2 3 4 5 6
+A B C D E F G
+1 2 3 4 5 6 7 8 
+
+*/
+
+
+
 import java.util.Scanner;
 
 public class AlphaNumericTriangle {

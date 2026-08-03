@@ -1,3 +1,13 @@
+/*
+a a a a a 
+b b b b b 
+c c c c c 
+d d d d d 
+e e e e e 
+f f f f f 
+
+*/
+
 import java.util.Scanner;
 
 public class RowAlphabetPattern {

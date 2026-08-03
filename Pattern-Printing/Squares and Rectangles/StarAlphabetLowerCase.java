@@ -1,3 +1,11 @@
+/*
+a b c d e 
+a b c d e 
+a b c d e 
+a b c d e 
+a b c d e 
+*/
+
 import java.util.Scanner;
 
 public class StarAlphabetLowerCase {

@@ -1,3 +1,16 @@
+/*
+A 
+A B 
+A B C 
+A B C D 
+
+A 
+B B 
+C C C 
+D D D D
+
+*/
+
 import java.util.Scanner;
 
 public class AlphabetTriangle {

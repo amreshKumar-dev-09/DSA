@@ -13,6 +13,7 @@ public class PrintDivisors{
         System.out.println("Enter a Digit: ");
         int n = sc. nextInt();
 
+        // i <= Math.sqrt(n);
         for (int i = 1; i*i <= n; i++){
 
             if (n % i == 0){
@@ -28,7 +29,7 @@ public class PrintDivisors{
         
         Collections.sort(list);
 
-        System.out.println(list);
+        System.out.println("Divisors of "+n+" are: "+list);
 
         sc.close();
 

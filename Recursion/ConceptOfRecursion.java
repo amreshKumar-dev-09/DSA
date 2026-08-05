@@ -1,25 +1,22 @@
 class Recursion{
+    
 
-    int count = 0;
+    void print(int i, int n){
 
-    void print(){
+        if(i > n)return;
 
-        if(count == 4)return;
+        System.out.println("Amresh");
 
-        System.out.println(count);
-        count++;
-
-        print();
+        print(i+1,n);
     }
 
 }
-
 
 public class ConceptOfRecursion {
     public static void main(String[] args){
 
         Recursion obj = new Recursion();
-        obj.print();
+        obj.print(1,5);
 
     }
     

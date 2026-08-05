@@ -13,6 +13,7 @@ class Operation{
     }
 }
 
+// Time and space complexity is O(n).
 
 public class Factorial {
     public static void main(String[] args) {

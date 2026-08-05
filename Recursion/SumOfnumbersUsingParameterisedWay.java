@@ -11,6 +11,11 @@ class sumRecursion{
     }
 }
 
+/*
+Time Complexity: O(n)
+Space Complexity: O(n) due to recursion stack
+*/
+
 public class SumOfnumbersUsingParameterisedWay{
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Name{
+class operation{
 
     void print(int i, int n){
 
@@ -17,7 +17,7 @@ public class PrintNtimes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        Name obj = new Name();
+        operation obj = new operation();
         obj.print(1,5);
 
         sc.close();

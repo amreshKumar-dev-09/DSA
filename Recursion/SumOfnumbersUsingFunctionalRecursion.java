@@ -9,6 +9,10 @@ class sumRecursion{
     }
 }
 
+/*
+Time Complexity: O(n)
+Space Complexity: O(n) due to recursion stack
+*/
 
 public class SumOfnumbersUsingFunctionalRecursion{
     public static void main(String[] args) {

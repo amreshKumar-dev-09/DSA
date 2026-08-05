@@ -1,28 +1,24 @@
 import java.util.Scanner;
 
 class Name{
-    int count = 1;
 
-    void print(String name){
+    void print(int i, int n){
 
-        if(count > 5)return;
+        if(i > n)return;
 
-        System.out.println(name);
-        count++;
+        System.out.println(i);
 
-        print(name);
+        print(i+1,n);
 
     }
 }
-
-
 
 public class PrintNtimes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         Name obj = new Name();
-        obj.print("Amresh");
+        obj.print(1,5);
 
         sc.close();
 

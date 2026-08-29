@@ -1,3 +1,7 @@
+// Time Complexity = O(n^2) for worst and average case.
+// Time Complexity = O(n) for best case.
+// Space Complexity = O(1). 
+
 public class InsertionSort {
     public static void sort(int[] arr){
         int n = arr.length;

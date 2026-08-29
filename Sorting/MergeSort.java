@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 // Time Complexity = O(n log n) for all cases
 // Space Complexity = O(n)
@@ -13,13 +14,13 @@ public class MergeSort{
 
         while(left <= mid && right <= high){
           if(arr.get(left) <= arr.get(right)){
-            temp.add(arr.get(left));
-            left++;
-          }
+             temp.add(arr.get(left));
+              left++;
+            }
           else{
-            temp.add(arr.get(right));
-            right++;
-          }
+              temp.add(arr.get(right));
+              right++;
+            }
         }
 
         while(left <= mid){
@@ -35,8 +36,6 @@ public class MergeSort{
         for(int i = low; i <= high; i++){
             arr.set(i, temp.get(i - low));
         }
-
-
     }
 
     public static void sort(ArrayList<Integer> arr , int low, int high){
@@ -50,22 +49,14 @@ public class MergeSort{
     }
 
     public static void main(String[] args) {
-
-        ArrayList<Integer> arr = new ArrayList<>();
-        arr.add(5);
-        arr.add(4);
-        arr.add(3);
-        arr.add(2);
-        arr.add(1);
+        
+        ArrayList<Integer> arr = new ArrayList<>(Arrays.asList(3, 1, 2, 4, 1, 5, 2, 6, 4));
 
         int n = arr.size();
 
         sort(arr, 0, n - 1);
 
         System.out.println(arr);
-
-
-
         
     }
 }

@@ -24,7 +24,7 @@
             }
         }
     }
-    
+
 
     public static void print(int[] arr){
          for (int num : arr) {
@@ -35,7 +35,7 @@
      
     public static void main(String a[]){
 
-        int[] arr = {9,13,24,46,52};
+        int[] arr = {13,24,46,52,20,9};
 
         sort(arr);
 

@@ -5,12 +5,11 @@ import java.util.List;
 class Solution{
     public void combination(int[] arr, int ind, int target, ArrayList<Integer>list, ArrayList<List<Integer>>ans){
 
-            if(target == 0){
-                ans.add(new ArrayList<>(list));
-                  return;
-            }
-          
-
+        if(target == 0){
+            ans.add(new ArrayList<>(list));
+            return;
+        }
+        
 
        for(int i = ind; i < arr.length; i++){
             if(i > ind && arr[i] == arr[i - 1])continue;
@@ -19,10 +18,8 @@ class Solution{
             list.add(arr[i]);
             combination(arr, i + 1, target - arr[i], list, ans);
             list.remove(list.size() - 1);
-         }
-
+        }
     }
-
 }
 
 // Time Complexity = O(2^n * n)

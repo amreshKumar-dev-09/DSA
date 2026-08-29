@@ -1,11 +1,8 @@
 class Operation{
-
     void print(int n,int i){
 
         if (n < i)return;
-
         System.out.println(n);
-
         print(n-1, i);
 
     }
@@ -18,7 +15,5 @@ public class PrintNto1 {
 
         Operation obj = new Operation();
         obj.print(5, 1);
-        
     }
-    
 }

@@ -11,7 +11,7 @@ public class SelectionSort{
             for(int j = i; j <= arr.length-1; j++){
 
                 if(arr[j] < arr[min]){
-                    //if(arr[j] < arr[min] for dorting in descending order.
+                    //if(arr[j] < arr[min] for sorting in descending order.
                     min = j;
                 }
             }

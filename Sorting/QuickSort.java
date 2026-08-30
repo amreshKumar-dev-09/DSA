@@ -1,3 +1,7 @@
+// Time complexity = O(n log n) for best and average cases.
+// Worst Case: (O(n²)), Occurs when the smallest or largest element is always chosen as the pivot (e.g., sorted arrays).
+// Space Complexity = O(1)
+
 public class QuickSort{
 
     public static int partition(int[] arr, int low, int high){

@@ -1,4 +1,6 @@
 // Brute Force Appproach
+//Time Complexity: O(N2), (where N = size of the array), for the worst, and average cases.
+//Space Complexity: O(N) auxiliary stack space.
 
 class sorting{
     public void sort(int[] arr, int n){

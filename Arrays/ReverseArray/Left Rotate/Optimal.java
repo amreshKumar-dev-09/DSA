@@ -1,4 +1,4 @@
-// Left Rotate by one place
+// Left Rotate an array by one place
 // Time Complexity: O(n)
 // Auxiliary Space: O(1)   // extra memory used by the algorithm
 // Total Space: O(n)       // includes the input array

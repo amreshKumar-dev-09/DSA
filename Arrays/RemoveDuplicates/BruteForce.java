@@ -7,7 +7,7 @@ import java.util.HashSet;
 
 public class BruteForce {
 
-    public static int removeDuplicated(int[] arr) {
+    public static int removeDuplicates(int[] arr) {
 
         Set<Integer> set = new HashSet<>();
 
@@ -32,7 +32,7 @@ public class BruteForce {
 
         int arr[] = {0,0,1,1,1,2,2,3,3,4};
 
-        int k = removeDuplicated(arr);
+        int k = removeDuplicates(arr);
 
         System.out.println("k = " + k);
 

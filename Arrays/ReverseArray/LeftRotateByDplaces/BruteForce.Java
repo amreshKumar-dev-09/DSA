@@ -1,4 +1,4 @@
-// Time Complexity = O(n)
+// Time Complexity = O(n + d)
 // Space Complexity = O(n)
 
 

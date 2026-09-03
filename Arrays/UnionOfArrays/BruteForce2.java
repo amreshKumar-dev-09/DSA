@@ -28,7 +28,7 @@ public class BruteForce2 {
         return union;
     }
 
-    public static void main(String a[]){
+    public static void main(String[] args{
         int arr1[] = {6,4,5,1,2};
         int arr2[] = {2,1,5,7};
 

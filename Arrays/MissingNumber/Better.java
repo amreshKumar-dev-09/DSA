@@ -1,7 +1,6 @@
 // Time Complexity = O(n)
 // Space Complexity = O(n)
 
-
 public class Better{
      public static void FindMissingNumber(int[] arr, int n){
         int hash[] = new int[n + 2];
@@ -25,5 +24,4 @@ public class Better{
         FindMissingNumber(arr, n);
 
     }
-
 }

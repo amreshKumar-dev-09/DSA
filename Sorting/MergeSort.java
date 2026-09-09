@@ -39,7 +39,7 @@ public class MergeSort{
     }
 
     public static void sort(ArrayList<Integer> arr , int low, int high){
-        if(low == high)return;
+        if(low >= high)return;
         int mid = (low+high)/2;
 
         sort(arr, low, mid);
@@ -56,7 +56,10 @@ public class MergeSort{
 
         sort(arr, 0, n - 1);
 
-        System.out.println(arr);
+         for(int nums : arr){
+            System.out.print(nums + " ");
+        }
+        System.out.println();
         
     }
 }

@@ -31,12 +31,12 @@ public class Optimal {
                 Ssmallest = Smallest;
                 Smallest = arr[i];
             }
-            else if(arr[i] > Smallest && arr[i] < Ssmallest){
+            else if(arr[i] != Smallest && arr[i] < Ssmallest){
                 Ssmallest = arr[i];
             }
         }
 
-        System.out.println("Second Largest: "+Ssmallest);
+        System.out.println("Second Smallest: "+Ssmallest);
 
     }
     public static void main(String[] args){

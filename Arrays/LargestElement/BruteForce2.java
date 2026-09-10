@@ -1,5 +1,5 @@
 // Time Complexity = O(n log n)
-// Space Complexity = O(1)
+// Space Complexity = O(n) for averege case and O(log n) for worst case.
 
 
 import java.util.Arrays;

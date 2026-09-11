@@ -8,7 +8,7 @@ public class ThirdLargest {
         int SecondLargest = Integer.MIN_VALUE;
         int ThirdLargest = Integer.MIN_VALUE;
 
-        for(int i = 0; i < n; i++){
+        for(int i = 1; i < n; i++){
 
             if(arr[i] > Largest){
                 ThirdLargest = SecondLargest;
@@ -26,7 +26,7 @@ public class ThirdLargest {
             }
         }
 
-         System.out.println("Third Largest: "+ThirdLargest);
+        System.out.println("Third Largest: "+ThirdLargest);
 
     }
     

@@ -1,6 +1,5 @@
-// Time 0omplexity = O(n)
+// Time Complexity = O(n)
 // Space Complexity = O(1)
-
 
 public class Optimal{
     public static void removeDuplicates(int[] arr){

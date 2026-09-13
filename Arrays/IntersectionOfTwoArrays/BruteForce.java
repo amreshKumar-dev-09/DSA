@@ -1,5 +1,9 @@
 // Time Complexity = O(n*m)
 // Space Complexity =  O(m + min(n,m)) = O(m)
+/* The space complexity is O(m). We use a visited array of size m, so it takes O(m) space.
+The answer list can take O(min(n,m)) space because the intersection cannot contain more elements than the smaller array. 
+Therefore, the total is O(m + min(n,m)), which simplifies to O(m).
+  */
 
 import java.util.ArrayList;
 
@@ -15,6 +19,8 @@ public class BruteForce{
                     visited[j] = 1;
                     break;
                 }
+
+                if(arr2[j] > arr1[i])break;
             }
         }
 

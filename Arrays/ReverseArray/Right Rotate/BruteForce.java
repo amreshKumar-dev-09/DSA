@@ -1,3 +1,6 @@
+// Time Complexity = O(n + d)
+// Space Complexity = O(n)
+
 public class BruteForce{
 
     public static void Rotate(int[] arr, int d){

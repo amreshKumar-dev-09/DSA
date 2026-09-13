@@ -2,14 +2,14 @@
 // Space Complexity = O(n + m)
 
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.TreeSet;
 import java.util.List;
 
 public class BruteForce2 {
 
     public static List<Integer>FindUnion(int[] arr1, int arr2[]){
       
-        HashSet<Integer> st =  new HashSet<>();
+        TreeSet<Integer> st =  new TreeSet<>();
 
         for(int n : arr1){
             st.add(n);
@@ -28,7 +28,7 @@ public class BruteForce2 {
         return union;
     }
 
-    public static void main(String[] args{
+    public static void main(String[] args){
         int arr1[] = {6,4,5,1,2};
         int arr2[] = {2,1,5,7};
 

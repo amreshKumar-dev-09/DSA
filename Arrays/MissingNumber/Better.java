@@ -5,6 +5,10 @@ public class Better{
      public static void FindMissingNumber(int[] arr, int n){
         int hash[] = new int[n + 2];
 
+        /*I use the number itself as the hash-array index. I mark existing elements as 1,
+        and the index whose value remains 0 represents the missing number.
+        ince the expected range goes up to n+1 and Java indexing starts from 0, the array size is n+2.*/
+
         for(int i = 0; i < n; i++){
             hash[arr[i]] = 1;
         }

@@ -1,6 +1,10 @@
 // Time Complexity = O(n)
 // Space Complexity = O(1)
 
+/* Summation: O(n) time, O(1) space, but can cause integer overflow when n is large, e.g. 10⁵.
+XOR: O(n) time, O(1) space, and avoids integer overflow because it doesn't calculate a large sum.
+Therefore, XOR is generally preferred when choosing between the two. */
+
 public class Optimal2 {
      public static int FindMissingNumber(int[] arr, int N){
         int XOR1 = 0;

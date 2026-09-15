@@ -1,6 +1,10 @@
 // Time Complexity = O(n)
 // Space Complecity = O(n)
 
+// Hash Array: O(n) Time, O(max) Space
+// HashMap: O(n) Worst-case Time, O(n) Space
+// TreeMap: O(n log n) Time, O(n) Space
+
 public class Optimal{
 
     public static void Solution(int[] arr){

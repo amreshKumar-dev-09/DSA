@@ -15,7 +15,7 @@ public class BruteForce2{
 
                 if(sum == k){
                  int len = j - i + 1;
-                 maxLength = Math.max(maxLength, len);A
+                 maxLength = Math.max(maxLength, len);
                 }
             }
             
